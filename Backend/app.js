@@ -10,10 +10,10 @@ app.use(express.json());
 app.use("/api",UserRoute)
 
 
-app.get("/",(req,res)=>{
-    res.send("ram")
+// app.get("/",(req,res)=>{
+//     res.send("ram")
     
-})
+// })
 
 app.listen(8080,()=>{
     connection();
