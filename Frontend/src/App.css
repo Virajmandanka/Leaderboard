@@ -1,0 +1,160 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+/* adduser */
+
+.add-user-container {
+  margin: 20px 0;
+  padding: 15px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.add-user-container input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 160px;
+}
+
+.add-user-container button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* userselecter */
+.user-select-container {
+  margin: 20px 0;
+}
+
+.user-select-container select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  width: 200px;
+  transition: border-color 0.3s;
+}
+
+.user-select-container select:focus {
+  outline: none;
+  border-color: #388e3c;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* point */
+/* .point-container {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+} */
+
+.point-container button {
+  padding: 10px 18px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.point-container button:hover {
+  background-color: #388e3c;
+}
+
+/* leaderboard */
+.leaderboard-container {
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+.leaderboard-container h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.leaderboard-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.leaderboard-table tr:hover {
+  background-color: #e6f7ff;
+}
+
+
+
+/* .add-user-container button:hover {
+  background-color: #45a049;
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
