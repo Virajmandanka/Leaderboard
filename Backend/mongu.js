@@ -6,7 +6,7 @@ const connection= async () =>{
     console.log("MongoDb connect")
         
     } catch (error) {
-        console.log("MongoDb connect field",error.messege)
+        console.log("MongoDb connect field",error.message)
     }
    
 }
