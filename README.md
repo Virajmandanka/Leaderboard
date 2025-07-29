@@ -9,7 +9,7 @@ A full-stack MERN application where users can be added, claim random points, and
 - **Frontend**: React.js, CSS  
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB  
-- **Other Tools**: Axios, Vite (if used), MongoDB Atlas
+- **Other Tools**: fetch, Vite (if used), MongoDB Atlas
 
 ---
 
